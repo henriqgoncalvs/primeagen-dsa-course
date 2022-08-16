@@ -8,6 +8,7 @@ test("queue", function () {
     list.enqueue(9);
 
     expect(list.deque()).toEqual(5);
+    expect(list.peek()).toEqual(7);
     expect(list.length).toEqual(2);
 
     // this must be wrong..?
@@ -26,6 +27,6 @@ test("queue", function () {
     // just wanted to make sure that I could not blow up myself when i remove
     // everything
     list.enqueue(69);
-    expect(list.peek()).toEqual(69);
     expect(list.length).toEqual(1);
+    expect(list.peek()).toEqual(69);
 });
