@@ -18,6 +18,6 @@
         "clear": "./scripts/clear",
         "prettier": "prettier --write ./src",
         "generate": "./scripts/generate",
-        "day": "echo /home/mpaulson/personal/kata-machine/src/day2"
+        "day": "echo /home/henrique/Desktop/study/primeagen-dsa-course/src/day1"
     }
 }
